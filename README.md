@@ -10,7 +10,7 @@
 1. ### Prepare gameplay loop
     - Shuffle the deck and divide it in two.
     - Create `list` of captured cards for each player
-    - 
+    - Create Players with those lists
     - Create a while loop that hosts the game
 
 1. ### Create printout for the state of play. It should contain:

@@ -5,6 +5,7 @@ def main():
     Game.main_loop()
 
 class Game:
+    @classmethod
     def main_loop():
         ...
 
