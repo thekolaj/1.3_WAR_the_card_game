@@ -1,10 +1,10 @@
 # WAR: The Card Game
 1. ### Create deck of 52 cards
     - Store cards in a `list`.
-    - Card rank from 2(lowest) to Ace(highest)
+    - Card rank from 2 (lowest) to Ace (highest)
     - Cards have fours suits: clubs (♣), diamonds (♦), hearts (♥) and spades (♠)
     - Each card represented by a `tuple` of rank and suit
-    - ranks are stored as as `int` of 2 to 14 for easy comparison
+    - ranks are stored as `int` of 2 to 14 for easy comparison
     - When printed out, replace `int` 11 to 14 with 'J', 'Q', 'K', 'A' using a `dictionary`
 
 1. ### Prepare gameplay loop
@@ -34,7 +34,7 @@
     - `list.extend()` removed cards to a temporary holding list
     - restart comparison loop
 
-1. ### Handle capture cards
+1. ### Handle captured cards
     - At the end of every loop, check if the deck is empty
     - If empty, shuffle captured card deck and replace main deck with it
     - Replace captured with empty list
