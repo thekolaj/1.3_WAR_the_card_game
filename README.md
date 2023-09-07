@@ -10,6 +10,7 @@
 1. ### Prepare gameplay loop
     - Shuffle the deck and divide it in two.
     - Create `list` of captured cards for each player
+    - 
     - Create a while loop that hosts the game
 
 1. ### Create printout for the state of play. It should contain:
@@ -34,7 +35,7 @@
     - restart comparison loop
 
 1. ### Handle capture cards
-    - At the start of every loop, check if the deck is empty
+    - At the end of every loop, check if the deck is empty
     - If empty, shuffle captured card deck and replace main deck with it
     - Replace captured with empty list
     - During a war. If deck has less than 4 cards:
@@ -44,7 +45,7 @@
         - create empty captured list
     
 1. ### Handle Game ending
-    - At the start of every loop, when checking if deck is empty
+    - At the end of every loop, when checking if deck is empty
     - Check if captured cards deck is also empty
     - During war, before shuffling captured, check if both decks have at least 5 cards
     - Once triggered, `print` out the winning player and congratulate them for their "Skill".
