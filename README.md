@@ -3,7 +3,7 @@
     - Store cards in a `list`.
     - Card rank from 2 (lowest) to Ace (highest)
     - Cards have fours suits: clubs (♣), diamonds (♦), hearts (♥) and spades (♠)
-    - Each card represented by a `tuple` of rank and suit
+    - Each card represented by a `class` with rank and suit
     - ranks are stored as `int` of 2 to 14 for easy comparison
     - When printed out, replace `int` 11 to 14 with 'J', 'Q', 'K', 'A' using a `dictionary`
 
