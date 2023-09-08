@@ -1,5 +1,5 @@
 # WAR: The Card Game
-1. ### Create deck of 52 cards
+1. ### Create deck of 52 cards [DONE]
     - Store cards in a `list`.
     - Card rank from 2 (lowest) to Ace (highest)
     - Cards have fours suits: clubs (♣), diamonds (♦), hearts (♥) and spades (♠)
